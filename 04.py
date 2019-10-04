@@ -1,0 +1,7 @@
+a = int(input('借金総額'))
+b = int(input('返済金額'))
+print("返済にかかる年数は",a/b,"年です")
+bonus = int(input('ボーナス'))
+print('ボーナスを支払うと',(a/b)-((a-bonus)/b),'年返済完了が早まる')
+year = int(input('返済したい年数'))
+print(year,'年で返済するには',(a/year-b)*year,'円ボーナスを支払う必要がある')
